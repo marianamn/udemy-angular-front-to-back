@@ -2,8 +2,9 @@
 export interface User {
   firstName: string;
   lastName: string;
-  age?: number;
-  address?: Address;
+  email: string;
+  // age?: number;
+  // address?: Address;
   // image?: string;
   isActive?: boolean;
   // balance?: number;

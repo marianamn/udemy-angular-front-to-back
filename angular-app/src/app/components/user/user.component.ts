@@ -20,12 +20,13 @@ export class UserComponent implements OnInit {
     this.user =  {
       firstName: 'John',
       lastName: 'Smith',
-      age: 30,
-      address: {
-        street: '50 Main st',
-        city: 'Boston',
-        state: 'MA'
-      }
+      email: 'lohn@gmail.com',
+      // age: 30,
+      // address: {
+      //   street: '50 Main st',
+      //   city: 'Boston',
+      //   state: 'MA'
+      // }
     };
   }
 }
